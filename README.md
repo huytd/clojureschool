@@ -1,19 +1,11 @@
-# tryclojure
+# clojureschool
 
-TryClojure is a online Clojure REPL written using Noir and Chris Done's jquery console (you're awesome, Chris).
+Clojure School là phiên bản tiếng việt của http://trycloj.com
 
-[<img src="https://secure.travis-ci.org/Raynes/tryclojure.png"/>](http://travis-ci.org/Raynes/tryclojure)
+![](screenshot.png)
 
-## Usage
+## Cách sử dụng
 
-http://tryclj.com
+Bạn có thể truy cập vào địa chỉ [http://clojureschool.herokuapp.com/](http://clojureschool.herokuapp.com/)
 
-To run it locally, use `lein ring server`.
-
-## Credits
-
-apgwoz: Design
-
-## License
-
-Licensed under the same thing Clojure is licensed under: the EPL, of which you can find a copy at the root of this directory.
+Hoặc để chạy ngay trên máy tính của mình, bạn có thể gõ `lein ring server`.
