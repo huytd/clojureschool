@@ -1,6 +1,6 @@
 # clojureschool
 
-Clojure School là phiên bản tiếng việt của http://trycloj.com
+Clojure School là phiên bản tiếng việt của http://tryclj.com
 
 ![](screenshot.png)
 
