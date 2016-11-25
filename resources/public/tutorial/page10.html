@@ -1,5 +1,5 @@
 <p>
-  Chạy được luôn! <img width=18 src="http://emoji-cheat-sheet.com/graphics/emojis/smirk.png"/> Bây giờ bạn có thể gọi hàm <code>square</code> mới này giống như cách mà bạn gọi hàm <code>square</code> cũ ở các bài trước.
+  Chạy được luôn! <img width=18 src="http://webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/smirk.png"/> Bây giờ bạn có thể gọi hàm <code>square</code> mới này giống như cách mà bạn gọi hàm <code>square</code> cũ ở các bài trước.
 </p>
 
 <p>Đến đây thì bạn đã biết, list là một phần quan trọng của Clojure. Nhưng Clojure còn có nhiều kiểu dữ liệu khác nữa:</p>
@@ -16,6 +16,6 @@
 
 <p>Ở ví dụ trên, chúng ta sử dụng <em>keyword</em> (<code>:foo</code>) để làm một key, và số cho key khác.</p>
 
-<p>Giờ tui sẽ nói cho bạn một điều bất ngờ khác <img width=18 src="http://emoji-cheat-sheet.com/graphics/emojis/expressionless.png"/>: Tập hợp (collections) trong Clojure là kiểu dữ liệu bất biến (<em>immutable</em>) - tức là nó không thể nào thay đổi được. Khi bạn làm bất cứ thao tác gì trên một list, kể cả thêm (add) hay xoá (remove) một phần tử, bạn sẽ nhận được một list mới hoàn toàn (Đừng lo về performance, vì Clojure thực hiện việc này rất hiệu quả).</p>
+<p>Giờ tui sẽ nói cho bạn một điều bất ngờ khác <img width=18 src="http://webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/expressionless.png"/>: Tập hợp (collections) trong Clojure là kiểu dữ liệu bất biến (<em>immutable</em>) - tức là nó không thể nào thay đổi được. Khi bạn làm bất cứ thao tác gì trên một list, kể cả thêm (add) hay xoá (remove) một phần tử, bạn sẽ nhận được một list mới hoàn toàn (Đừng lo về performance, vì Clojure thực hiện việc này rất hiệu quả).</p>
 
 <p>Ví dụ cụ thể nhất cho vụ này là <code>map</code>. <code>map</code> là một <em>hàm có độ ưu tiên cao hơn (higher order function)</em>, có nghĩa là nó có thể nhận các hàm khác làm tham số được. Ví dụ: Bạn có thể làm cho <code>map</code> tăng giá trị các số bên trong nó bằng cách truyền vào trong đó hàm <code>inc</code>, theo sau là một vector các giá trị số: <code class="expr">(map inc [1 2 3 4])</code></p>
