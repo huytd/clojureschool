@@ -17,7 +17,7 @@
     (include-css "/css/tryclojure.css"
                  "/css/gh-fork-ribbon.css"
                  "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin,vietnamese")
-    (include-js "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+    (include-js "//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
                 "/javascript/jquery-console/jquery.console.js"
                 "/javascript/tryclojure.js")
     [:title "Clojure School"]]
